@@ -4,12 +4,23 @@ body {
 
 h2 {
     color: aqua;
+    text-align: center;
+    font-weight: bold; /* или 100-900 свойство зависит от используемого шрифта */
+    font-style: italic;
+    text-decoration: underline;/* или line-throught */
+    font-size: 30px;
 }
 
 .chapter {
-    color:brown
+    color: rgb(35, 180, 196)
+    font-weight: 900;
+
 }
 
 #begin {
     color: orchid
+}
+
+.text {
+    text-transform: uppercase;
 }
