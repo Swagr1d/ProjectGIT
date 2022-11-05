@@ -2,7 +2,16 @@ body {
     background-color: seagreen;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
 h2 {
+    text-align: center;
     color: aqua;
     text-align: center;
     font-weight: bold; /* или 100-900 свойство зависит от используемого шрифта */
@@ -25,6 +34,9 @@ h2 {
 }
 
 .box {
+    box-sizing: border-box;/*если устанавливаем полный размер либо conten-box */
+    vertical-align: middle;
+    display: inline-block;
     width: 300px;
     height: 300px;
     background-color:blueviolet;
@@ -35,3 +47,29 @@ h2 {
     border: 3px solid black;
     margin: 20px;
 }
+
+.red { 
+    /* width: 40%;  процент от ширины РОДИТЕЛЬСКОГО ЭЛЕМЕНТА*/
+    /* height: 50em;  от высоты шрифта, такое практич не использ*/
+    width: 300px;
+    height: 300px;
+    /* font-size: 30px;  размер шрифта*/
+    background-color:rgb(180, 21, 21);
+    padding: 20px 30px 40px 50px;
+    display: inline-block;
+    border: 3px solid black;
+    margin: 20px; 
+    vertical-align: middle;
+    
+}
+
+.pink {
+    color:pink
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    /* float: right; */ /* обтекание */
+    }
